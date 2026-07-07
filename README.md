@@ -1,3 +1,36 @@
+🚧 Aktueller Entwicklungsstatus – VANTABLACK-Phase
+
+Jarvis Core befindet sich derzeit in der VANTABLACK-Härtungsphase.
+
+In dieser Entwicklungsphase liegt der Fokus nicht auf neuen Funktionen, sondern auf der kompromisslosen Stabilisierung und Absicherung des gesamten Laufzeitsystems.
+
+Ziel ist es, den Kern von Jarvis zu einer deterministischen, typsicheren und langfristig wartbaren Runtime-Engine auszubauen. Bevor neue Fähigkeiten entstehen, wird das Fundament konsequent überprüft, vereinheitlicht und gehärtet.
+
+Was bedeutet VANTABLACK?
+
+VANTABLACK ist das interne Architektur- und Härtungsprotokoll von Jarvis. Es definiert verbindliche Regeln für die Entwicklung aller Kernkomponenten und stellt sicher, dass neue Funktionen niemals auf einem instabilen Fundament entstehen. Die Grundprinzipien umfassen unter anderem: zentrale Typwächter, das Verbot unkontrollierter None-Zustände, vollständig definierte Kontrollflüsse (if/else), kontrollierte Zustandsänderungen, geschützte Systemgrenzen, defensive Fallback-Mechanismen sowie eine präzise Fehlerprotokollierung.
+
+Grundprinzipien
+Stabilität vor neuen Funktionen
+Determinismus vor Komfort
+Verantwortlichkeiten klar trennen
+Explizite statt impliziter Logik
+Fehler früh erkennen und sauber behandeln
+Keine stillen Zustandsänderungen
+Der Runtime-Zustand bleibt die einzige Quelle der Wahrheit
+Warum dieser Aufwand?
+
+Neue Funktionen lassen sich jederzeit ergänzen.
+
+Ein instabiles Fundament begleitet ein Projekt jedoch über Jahre.
+
+Die VANTABLACK-Phase dient deshalb ausschließlich dazu, den Kern von Jarvis so zu gestalten, dass zukünftige Erweiterungen auf einer sauberen, nachvollziehbaren und belastbaren Architektur aufbauen können.
+
+"Stabilität vor Features. Fundament vor Geschwindigkeit."
+
+Nach Abschluss der VANTABLACK-Phase wird die Entwicklung wieder verstärkt auf neue Funktionen und Fähigkeiten ausgerichtet – dann jedoch auf einer Architektur, der wir langfristig vertrauen können.
+
+
 # Jarvis Core
 
 Deterministic Runtime Intelligence Infrastructure
