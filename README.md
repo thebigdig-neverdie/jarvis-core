@@ -1,85 +1,117 @@
-🚧 Aktueller Entwicklungsstatus – VANTABLACK-Phase
+# Jarvis Core
 
-Jarvis Core befindet sich derzeit in der VANTABLACK-Härtungsphase.
+> **Deterministic Runtime Intelligence Infrastructure**
 
-In dieser Entwicklungsphase liegt der Fokus nicht auf neuen Funktionen, sondern auf der kompromisslosen Stabilisierung und Absicherung des gesamten Laufzeitsystems.
+Jarvis Core ist eine lokale Runtime-Intelligence-Engine zur deterministischen Ausführung intelligenter Infrastrukturprozesse.
 
-Ziel ist es, den Kern von Jarvis zu einer deterministischen, typsicheren und langfristig wartbaren Runtime-Engine auszubauen. Bevor neue Fähigkeiten entstehen, wird das Fundament konsequent überprüft, vereinheitlicht und gehärtet.
+Der Fokus liegt nicht auf autonomen Entscheidungen, sondern auf einer kontrollierten, nachvollziehbaren und stabilen Runtime.
 
-Was bedeutet VANTABLACK?
+---
 
-VANTABLACK ist das interne Architektur- und Härtungsprotokoll von Jarvis. Es definiert verbindliche Regeln für die Entwicklung aller Kernkomponenten und stellt sicher, dass neue Funktionen niemals auf einem instabilen Fundament entstehen. Die Grundprinzipien umfassen unter anderem: zentrale Typwächter, das Verbot unkontrollierter None-Zustände, vollständig definierte Kontrollflüsse (if/else), kontrollierte Zustandsänderungen, geschützte Systemgrenzen, defensive Fallback-Mechanismen sowie eine präzise Fehlerprotokollierung.
+# Was ist Jarvis?
 
-Grundprinzipien
-Stabilität vor neuen Funktionen
-Determinismus vor Komfort
-Verantwortlichkeiten klar trennen
-Explizite statt impliziter Logik
-Fehler früh erkennen und sauber behandeln
-Keine stillen Zustandsänderungen
-Der Runtime-Zustand bleibt die einzige Quelle der Wahrheit
-Warum dieser Aufwand?
+Jarvis ist **kein Chatbot**.
+
+Jarvis ist **kein autonomer Agent**.
+
+Jarvis ist eine **Runtime Intelligence Engine**, die Infrastruktur überwacht, analysiert und innerhalb klar definierter Grenzen unterstützt.
+
+Der Mensch bleibt jederzeit die höchste Entscheidungsinstanz.
+
+---
+
+# 🚧 Aktueller Entwicklungsstatus – VANTABLACK
+
+Jarvis Core befindet sich derzeit in der **VANTABLACK-Härtungsphase**.
+
+In dieser Entwicklungsphase werden bewusst **keine neuen Funktionen entwickelt**.
+
+Der Schwerpunkt liegt ausschließlich auf der technischen Stabilisierung, Vereinheitlichung und Absicherung des gesamten Runtime-Kerns.
+
+Bevor neue Fähigkeiten entstehen, wird das Fundament kompromisslos gehärtet.
+
+---
+
+## Das VANTABLACK-Protokoll
+
+VANTABLACK ist das interne Architektur- und Härtungsprotokoll von Jarvis.
+
+Es definiert verbindliche Regeln für sämtliche Kernkomponenten und stellt sicher, dass neue Funktionen niemals auf einem instabilen Fundament entstehen.
+
+### Grundprinzipien
+
+- Stabilität vor neuen Funktionen
+- Determinismus vor Komfort
+- Eine Runtime – eine Wahrheit (Single Source of Truth)
+- Klare Verantwortlichkeiten statt vermischter Logik
+- Keine stillen Zustandsänderungen
+- Keine impliziten `None`-Zustände
+- Jede Verzweigung besitzt einen vollständigen Kontrollfluss (`if` / `else`)
+- Zustandsänderungen ausschließlich über kontrollierte Schnittstellen
+- Präzise Fehlerprotokollierung
+- Defensive Fallback-Strategien
+
+---
+
+## Warum VANTABLACK?
 
 Neue Funktionen lassen sich jederzeit ergänzen.
 
 Ein instabiles Fundament begleitet ein Projekt jedoch über Jahre.
 
-Die VANTABLACK-Phase dient deshalb ausschließlich dazu, den Kern von Jarvis so zu gestalten, dass zukünftige Erweiterungen auf einer sauberen, nachvollziehbaren und belastbaren Architektur aufbauen können.
+Deshalb wird der Runtime-Kern zunächst vollständig gehärtet, bevor neue Fähigkeiten entstehen.
 
-"Stabilität vor Features. Fundament vor Geschwindigkeit."
-
-Nach Abschluss der VANTABLACK-Phase wird die Entwicklung wieder verstärkt auf neue Funktionen und Fähigkeiten ausgerichtet – dann jedoch auf einer Architektur, der wir langfristig vertrauen können.
-
-
-# Jarvis Core
-
-Deterministic Runtime Intelligence Infrastructure
-
-Jarvis Core ist eine lokale Runtime Engine für deterministische AI-Ausführung.
-
-Fokus:
-
-* Stabilität
-* Observability
-* deterministische Entscheidungen
-* kontrollierte Automation
-* klare Zustandsverantwortung
-
-Jarvis ist kein Chatbot.
-Jarvis ist kein Agent.
-Jarvis ist ein Runtime-System.
+> **Stabilität vor Features. Fundament vor Geschwindigkeit.**
 
 ---
 
-# Current Status
+# Aktueller Status
 
-Jarvis ist aktuell produktiv:
+✅ Signal-driven
 
-* Signal-driven ✔
-* Decision-based ✔
-* Action-controlled ✔
-* Outcome-aware ✔
-* Learning-enabled (controlled) ✔
-* Observable ✔
-* Deterministic ✔
-* Backbone-hardened ✔
-* Runtime live-verified ✔
+✅ Decision-based
+
+✅ Action-controlled
+
+✅ Outcome-aware
+
+✅ Learning-enabled (controlled)
+
+✅ Observable
+
+✅ Deterministic
+
+✅ Backbone-hardened
+
+✅ Runtime live verified
 
 ---
 
-# What Jarvis Does
+# Was Jarvis macht
 
-Jarvis verarbeitet Runtime-Zustände als kontrollierten Ausführungszyklus:
+Jarvis verarbeitet Runtime-Zustände als kontrollierten Ausführungszyklus.
 
-* Runtime-Verhalten beobachten
-* Signale erkennen und bestätigen
-* Zustände bewerten
-* strukturierte Entscheidungen treffen
-* kontrollierte Actions ausführen
-* Ergebnisse bewerten
-* Verhalten begrenzt adaptiv verbessern
+```text
+Request
+    ↓
+Queue
+    ↓
+Worker
+    ↓
+Runtime Update
+    ↓
+Signal Generation
+    ↓
+Decision Engine
+    ↓
+Action System
+    ↓
+Outcome Evaluation
+    ↓
+Learning Update
+```
 
-Jarvis bleibt dabei deterministisch, beobachtbar und kontrollierbar.
+Jeder Schritt ist deterministisch, nachvollziehbar und kontrolliert.
 
 ---
 
@@ -87,115 +119,101 @@ Jarvis bleibt dabei deterministisch, beobachtbar und kontrollierbar.
 
 Jarvis läuft auf einem gehärteten Runtime-Backbone.
 
-Produktiv abgesichert:
+## Produktiv abgesichert
 
-* Single Source of Truth Runtime
-* harte State Ownership
-* Write Ownership nur über `RUNTIME_ACCESS`
-* deterministische Write-Validierung
-* kontrollierte State Transitions
-* Cycle / Snapshot Guards
-* Snapshot Commit Protection
-* Runtime Consistency Validation
-* Runtime-Hotpath Guarding
+- Single Source of Truth Runtime
+- Harte State Ownership
+- Write Ownership ausschließlich über `RUNTIME_ACCESS`
+- Deterministische Write-Validierung
+- Kontrollierte State Transitions
+- Cycle Guards
+- Snapshot Guards
+- Snapshot Commit Protection
+- Runtime Consistency Validation
+- Runtime Hotpath Guarding
 
-Das Runtime-System akzeptiert keine stillen Mutationen außerhalb des kontrollierten Zugriffspfads.
-
----
-
-# Runtime Flow
-
-Jarvis arbeitet als kontrollierter Laufzeitkreislauf:
-
-Request
-→ Queue
-→ Worker
-→ Runtime Update
-→ Signal Generation
-→ Decision Engine
-→ Action System
-→ Outcome Evaluation
-→ Learning Update
+Das Runtime-System akzeptiert keine stillen Mutationen außerhalb des definierten Zugriffspfades.
 
 ---
 
-# Core Modules
+# Kernmodule
 
-### Runtime Intelligence
+## Runtime Intelligence
 
-* Signal-basierte Zustandsanalyse
-* Stability Layer
-* Signal Decay
-* deterministische Runtime-Klassifikation
+- Signalbasierte Zustandsanalyse
+- Stability Layer
+- Signal Decay
+- Deterministische Runtime-Klassifikation
 
-### Decision Engine
+## Decision Engine
 
-* Confidence / Priority-basierte Entscheidungen
-* Score-basierte Trigger-Logik
-* kontrollierte Entscheidungsfilter
-* deterministische Bewertungslogik
+- Confidence- und Priority-basierte Entscheidungen
+- Score-basierte Trigger
+- Kontrollierte Entscheidungsfilter
+- Deterministische Bewertungslogik
 
-### Action System
+## Action System
 
-* Scale Up
-* Scale Down
-* Worker Restart
-* Cooldown-Schutzmechanismen
-* kontrollierte Action-Gates
+- Scale Up
+- Scale Down
+- Worker Restart
+- Cooldown Protection
+- Kontrollierte Action Gates
 
-### Outcome System
+## Outcome System
 
-* Action-Bewertung
-* Success / Failure Tracking
-* Queue Impact
-* Stability Impact
-* Outcome-Rückkopplung
+- Action-Bewertung
+- Success / Failure Tracking
+- Queue Impact
+- Stability Impact
+- Outcome Feedback
 
-### Learning System
+## Learning System
 
-* kontrollierte adaptive Gewichtung
-* GOOD / BAD / NEUTRAL Tracking
-* kontextbasierte Bewertung
+- Kontrollierte adaptive Gewichtung
+- GOOD / BAD / NEUTRAL Tracking
+- Kontextbasierte Bewertung
 
-Learning unterstützt Entscheidungen.
-Learning ersetzt Entscheidungen nicht.
+> **Learning unterstützt Entscheidungen.**
+>
+> **Learning ersetzt Entscheidungen niemals.**
 
 ---
 
 # Runtime Validation
 
-Jarvis validiert aktiv:
+Jarvis validiert kontinuierlich:
 
-* State Transitions
-* Write Ownership
-* Worker Consistency
-* Cycle Integrity
-* Snapshot Reihenfolge
-* Runtime Invariants
-* Guard Violations
+- State Transitions
+- Write Ownership
+- Worker Consistency
+- Cycle Integrity
+- Snapshot-Reihenfolge
+- Runtime Invariants
+- Guard Violations
 
-Ziel:
+## Ziel
 
-deterministisches Laufzeitverhalten ohne stille Inkonsistenzen.
+Deterministisches Laufzeitverhalten ohne stille Inkonsistenzen.
 
 ---
 
 # Live Verification
 
-Der Runtime-Core wurde gegen reales Laufzeitverhalten geprüft.
+Der Runtime-Core wurde erfolgreich unter realen Laufzeitbedingungen geprüft.
 
-Bestätigt:
+## Bestätigt
 
-* keine stillen Write-Bypässe
-* keine State-Corruption
-* keine Guard-Bypässe
-* keine Snapshot/Cycle-Regression
-* keine stillen Inkonsistenzen
-* keine Runtime-Hotpath-Regression
+- Keine Write-Bypässe
+- Keine State Corruption
+- Keine Guard-Bypässe
+- Keine Snapshot Regression
+- Keine Runtime-Hotpath-Regression
+- Keine stillen Inkonsistenzen
 
-Status:
+## Status
 
-**Live Verification PASS** ✔
+**✔ Live Verification PASS**
 
 ---
 
@@ -203,89 +221,107 @@ Status:
 
 ![Jarvis Dashboard](docs/dashboard.png)
 
-Zeigt:
+Das Dashboard visualisiert unter anderem:
 
-* Runtime Status
-* Worker Verhalten
-* Signal History
-* Decision Ergebnisse
-* Performance
-* Learning State
-* Runtime Health
+- Runtime Status
+- Worker Verhalten
+- Signal History
+- Decision Ergebnisse
+- Performance
+- Learning State
+- Runtime Health
 
 ---
 
-# Safety Model
+# Sicherheitsmodell
 
-Jarvis bleibt kontrolliert:
+Jarvis arbeitet ausschließlich innerhalb definierter Grenzen.
 
-* keine Action ohne validiertes Signal
-* keine Action ohne Stabilität
-* keine Action ohne Thresholds
-* keine Action ohne Cooldown
-* keine Mutation ohne Write-Gate
-* keine Runtime-Änderung ohne Ownership
+Eine Aktion erfolgt niemals ohne:
 
-Learning darf:
+- Validiertes Signal
+- Stabilität
+- Schwellwerte
+- Cooldown
+- Write Ownership
 
-* analysieren
-* unterstützen
-* gewichten
+### Learning darf
 
-Learning darf NICHT:
+- Analysieren
+- Unterstützen
+- Gewichten
 
-* direkt entscheiden
-* Runtime überschreiben
-* Guards umgehen
+### Learning darf niemals
+
+- Direkt entscheiden
+- Runtime überschreiben
+- Sicherheitsmechanismen umgehen
 
 ---
 
 # Start
 
-bash
+## Starten
+
+```bash
 docker compose up -d
+```
 
+## Status
 
-#Status:
-
+```bash
 curl localhost:8002/status
+```
 
-#Dashboard:
+## Dashboard
 
+```text
 http://localhost:8002/dashboard/status.html
+```
 
 ---
 
-## Usage Notice
+# Nutzung
 
-This repository is source-available for educational, research, and architectural reference purposes only.
+Dieses Repository ist öffentlich einsehbar.
 
-No open-source license is currently granted.
-See NOTICE.md and LICENSE for usage restrictions and rights.
+Der Quellcode dient ausschließlich Forschungs-, Lern- und Architekturzwecken.
 
----
+Es handelt sich ausdrücklich **nicht um ein Open-Source-Projekt**.
 
-# Next Step
+Weitere Informationen befinden sich in:
 
-Nächster technischer Schritt:
-
-struktureller Split des Runtime-Core
-
-* runtime_state.py
-* runtime_access.py
-* `runtime_snapshot.py`
-* `runtime_validation.py`
-
-Ziel:
-
-* kleinere Verantwortungsbereiche
-* bessere Wartbarkeit
-* bessere Testbarkeit
-* identisches Laufzeitverhalten bei sauberer Trennung
+- LICENSE
+- NOTICE.md
 
 ---
 
-# Status Summary
+# Nächster Meilenstein
 
-Jarvis Core ist ein stabiler, deterministischer Runtime-Control-Systemkern
-mit gehärtetem Backbone, kontrollierter Adaptivität und live verifiziertem Runtime-Core.
+Nach Abschluss der VANTABLACK-Phase beginnt die strukturelle Aufteilung des Runtime-Kerns.
+
+Geplante Komponenten:
+
+- runtime_state
+- runtime_access
+- runtime_snapshot
+- runtime_validation
+
+## Ziel
+
+- Kleinere Verantwortlichkeiten
+- Bessere Wartbarkeit
+- Höhere Testbarkeit
+- Identisches Laufzeitverhalten bei sauber getrennten Komponenten
+
+---
+
+# Projektstatus
+
+Jarvis Core entwickelt sich zu einer deterministischen Runtime-Intelligence-Plattform mit einem gehärteten Backbone, kontrollierter Adaptivität und einer Architektur, bei der Stabilität grundsätzlich Vorrang vor neuen Funktionen besitzt.
+
+---
+
+**Copyright © 2026 andreas "thebigdig" piepke**
+
+Alle Rechte vorbehalten.
